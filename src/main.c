@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
   float *x = (float *) malloc(3*N*sizeof(float));
   float *v = (float *) malloc(3*N*sizeof(float));
 
-  // El formato del filename ".lammpstrj", ese lee VMD lo lee comodamente
+  // El formato del filename ".lammpstrj", ese VMD lo lee comodamente
   char filename[255];
   sprintf(filename, "prueba.lammpstrj");
   int N_frames = 100;
